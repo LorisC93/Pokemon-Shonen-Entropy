@@ -428,6 +428,14 @@ Height = 1.4
 Pokedex = The energy of Mega Evolution awakened it. It sinks into another dimension, where it keeps a patient watch for its chance to attack.
 Generation = 6
 #-------------------------------
+[ONIX,1]
+FormName = Crystal
+Types = ROCK,ICE
+Pokedex = It has a body made of Glass Crystal. That element doesn't form bonds with metal, so this variant of Onix lost the ability to evolve.
+Generation = 1
+Flags = InheritFormWithEverStone
+Evolutions = STEELIX,None,
+#-------------------------------
 [EXEGGUTOR,1]
 FormName = Alolan
 Types = GRASS,DRAGON
