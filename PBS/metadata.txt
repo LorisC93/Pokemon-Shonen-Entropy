@@ -13,17 +13,17 @@ SurfBGM = Surfing
 BicycleBGM = Bicycle
 #-------------------------------
 [1]
-TrainerType = POKEMONTRAINER_Ethan
-WalkCharset = trainer_POKEMONTRAINER_Ethan
-RunCharset = Ethan_run
-CycleCharset = Ethan_bike
-SurfCharset = Ethan_surf
-FishCharset = Ethan_fish_offset
+TrainerType = POKEMONTRAINER_Female
+WalkCharset = trainer_POKEMONTRAINER_Female
+RunCharset = Female_run
+CycleCharset = Female_bike
+SurfCharset = Female_surf
+FishCharset = Female_fish_offset
 #-------------------------------
 [2]
-TrainerType = POKEMONTRAINER_Lyra
-WalkCharset = trainer_POKEMONTRAINER_Lyra
-RunCharset = Lyra_run
-CycleCharset = Lyra_bike
-SurfCharset = Lyra_surf
-FishCharset = Lyra_fish_offset
+TrainerType = POKEMONTRAINER_Male
+WalkCharset = trainer_POKEMONTRAINER_Male
+RunCharset = Male_run
+CycleCharset = Male_bike
+SurfCharset = Male_surf
+FishCharset = Male_fish_offset
