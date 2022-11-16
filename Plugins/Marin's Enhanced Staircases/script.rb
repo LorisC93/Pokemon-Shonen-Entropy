@@ -141,10 +141,10 @@ class Game_Event
         end
       end
       if xincline && yincline && ypos && yheight && offset
-        return [xincline, yincline, ypos, yheight, offset]
+        return [xincline, yincline, ypos || 0, yheight || 1, offset]
       end
     end
-    return [xincline, yincline, ypos, yheight, 16]
+    return [xincline, yincline, ypos || 0, yheight || 1, 16]
   end
 end
 
@@ -296,11 +296,11 @@ class Game_Character
     @stair_start_y = self.is_a?(Game_Player) ? @y : (@real_y / Game_Map::REAL_RES_Y).round
     @stair_end_x = @stair_start_x + x
     @stair_end_y = @stair_start_y + y
-    @stair_y_position = ypos
-    @stair_y_height = yheight
+    @stair_y_position = ypos || 0
+    @stair_y_height = yheight || 1
     @stair_begin_offset = begin_offset
-    @stair_start_y += ypos
-    @stair_end_y += ypos
+    @stair_start_y += ypos || 0
+    @stair_end_y += ypos || 0
   end
   
   def clear_stair_data

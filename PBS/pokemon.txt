@@ -1690,7 +1690,7 @@ Category = Psi
 Pokedex = It is rumored that a boy with psychic abilities suddenly transformed into Kadabra while he was assisting research into extrasensory powers.
 Generation = 1
 WildItemUncommon = TWISTEDSPOON
-Evolutions = ALAKAZAM,Trade,
+Evolutions = ALAKAZAM,Trade,,ALAKAZAM,Item,LINKINGCORD
 #-------------------------------
 [ALAKAZAM]
 Name = Alakazam
@@ -1771,7 +1771,7 @@ Category = Superpower
 Pokedex = A belt is worn by a Machoke to keep its overwhelming power under control. Because it is so dangerous, no one has ever removed the belt.
 Generation = 1
 WildItemUncommon = FOCUSBAND
-Evolutions = MACHAMP,Trade,
+Evolutions = MACHAMP,Trade,,MACHAMP,Item,LINKINGCORD
 #-------------------------------
 [MACHAMP]
 Name = Machamp
@@ -1984,7 +1984,7 @@ Category = Rock
 Pokedex = They descend from mountains by tumbling down steep slopes. They are so brutal, they smash aside obstructing trees and huge boulders with thunderous tackles.
 Generation = 1
 WildItemUncommon = EVERSTONE
-Evolutions = GOLEM,Trade,
+Evolutions = GOLEM,Trade,,GOLEM,Item,LINKINGCORD
 #-------------------------------
 [GOLEM]
 Name = Golem
@@ -2465,7 +2465,7 @@ Habitat = Cave
 Category = Gas
 Pokedex = If a Haunter beckons you while it is floating in darkness, don't approach it. This Pokémon will try to lick you with its tongue and steal your life away.
 Generation = 1
-Evolutions = GENGAR,Trade,
+Evolutions = GENGAR,Trade,,GENGAR,Item,LINKINGCORD
 #-------------------------------
 [GENGAR]
 Name = Gengar
@@ -3262,7 +3262,7 @@ Habitat = Grassland
 Category = Mantis
 Pokedex = Its blindingly fast speed adds to the sharpness of its twin forearm scythes. The scythes can slice through thick logs in one wicked stroke.
 Generation = 1
-Evolutions = SCIZOR,TradeItem,METALCOAT
+Evolutions = SCIZOR,TradeItem,METALCOAT,KLEAVOR,Item,BLACKAUGURITE
 #-------------------------------
 [JYNX]
 Name = Jynx
@@ -5722,6 +5722,7 @@ Habitat = Mountain
 Category = Hibernator
 Pokedex = In forests, it is said that there are many streams and towering trees where an Ursaring gathers food. It walks through its forest collecting food every day.
 Generation = 2
+Evolutions = URSALUNA,Item,PEATBLOCK
 #-------------------------------
 [SLUGMA]
 Name = Slugma
@@ -13800,7 +13801,7 @@ Pokedex = Because its energy was too great to be contained, the energy leaked an
 Generation = 5
 WildItemCommon = EVERSTONE
 WildItemUncommon = HARDSTONE
-Evolutions = GIGALITH,Trade,
+Evolutions = GIGALITH,Trade,,GIGALITH,Item,LINKINGCORD
 #-------------------------------
 [GIGALITH]
 Name = Gigalith
@@ -14012,7 +14013,7 @@ Habitat = Urban
 Category = Muscular
 Pokedex = They strengthen their bodies by carrying steel beams. They show off their big muscles to their friends.
 Generation = 5
-Evolutions = CONKELDURR,Trade,
+Evolutions = CONKELDURR,Trade,,CONKELDURR,Item,LINKINGCORD
 #-------------------------------
 [CONKELDURR]
 Name = Conkeldurr
@@ -18584,7 +18585,7 @@ Habitat = Forest
 Category = Stump
 Pokedex = These Pokémon are stumps possessed by the spirits of children who died in the forest. Their cries sound like eerie screams.
 Generation = 6
-Evolutions = TREVENANT,Trade,
+Evolutions = TREVENANT,Trade,,TREVENANT,Item,LINKINGCORD
 #-------------------------------
 [TREVENANT]
 Name = Trevenant
@@ -18637,7 +18638,7 @@ Pokedex = When taking spirits to the afterlife, small Pumpkaboo prefer the spiri
 FormName = Small Size
 Generation = 6
 Flags = InheritFormFromMother
-Evolutions = GOURGEIST,Trade,
+Evolutions = GOURGEIST,Trade,,GOURGEIST,Item,LINKINGCORD
 #-------------------------------
 [GOURGEIST]
 Name = Gourgeist
@@ -23506,3 +23507,181 @@ Habitat = Forest
 Category = King
 Pokedex = Calyrex is a merciful Pokémon, capable of providing healing and blessings. It reigned over the Galar region in times of yore.
 Generation = 8
+#-------------------------------
+[WYRDEER]
+Name = Wyrdeer
+Types = NORMAL,PSYCHIC
+BaseStats = 103,105,72,65,105,75
+GenderRatio = Female50Percent
+GrowthRate = Slow
+BaseExp = 163
+EVs = ATTACK,1,SPECIAL_ATTACK,1
+CatchRate = 45
+Happiness = 70
+Abilities = INTIMIDATE,FRISK
+HiddenAbility = SAPSIPPER
+Moves = 1,TACKLE,5,CONFUSION,9,HYPNOSIS,15,CALMMIND,21,PSYSHIELDBASH,29,EXTRASENSORY,37,ZENHEADBUTT,47,DOUBLEEDGE
+TutorMoves = ATTRACT,BOUNCE,BULLDOZE,CALMMIND,CHARGEBEAM,CONFIDE,DOUBLETEAM,DREAMEATER,EARTHQUAKE,ENDURE,ENERGYBALL,FACADE,FRUSTRATION,GIGAIMPACT,GRAVITY,HIDDENPOWER,HIGHHORSEPOWER,HYPERBEAM,IRONTAIL,LASTRESORT,LIGHTSCREEN,MAGICROOM,MEGAHORN,PROTECT,PSYCHIC,PSYCHUP,PSYSHOCK,RAINDANCE,REFLECT,REST,RETALIATE,RETURN,ROAR,ROLEPLAY,ROUND,SHADOWBALL,SHOCKWAVE,SIGNALBEAM,SKILLSWAP,SLEEPTALK,SNORE,SOLARBEAM,SPITE,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,THIEF,THROATCHOP,THUNDER,THUNDERBOLT,THUNDERWAVE,TOXIC,TRICKROOM,UPROAR,WILDCHARGE,WORKUP,ZENHEADBUTT
+EggGroups = Field
+HatchSteps = 5355
+Height = 1.8
+Weight = 95.1
+Color = Gray
+Shape = Quadruped
+Habitat = Forest
+Category = Big Horn
+Pokedex = The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing
+Generation = 8
+#-------------------------------
+[KLEAVOR]
+Name = Kleavor
+Types = BUG,ROCK
+BaseStats = 70,135,95,85,45,70
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 100
+EffortPoints = ATTACK,2
+CatchRate = 45
+Happiness = 70
+Abilities = SWARM,SHEERFORCE
+HiddenAbility = STEADFAST
+Moves = 1,QUICKATTACK,6,SILVERWIND,11,AERIALACE,14,STEALTHROCK,18,AIRSLASH,25,SWORDSDANCE,29,STONEAXE,34,XSCISSOR,43,CLOSECOMBAT
+TutorMoves = ACROBATICS,AERIALACE,AGILITY,AIRSLASH,ATTRACT,BATONPASS,BRICKBREAK,BRUTALSWING,BUGBITE,BUGBUZZ,CALMMIND,CONFIDE,CROSSPOISON,CUT,DEFOG,DOUBLETEAM,DUALWINGBEAT,ENDURE,FACADE,FALSESWIPE,FOCUSENERGY,FRUSTRATION,GIGAIMPACT,HIDDENPOWER,HYPERBEAM,KNOCKOFF,LASERFOCUS,LIGHTSCREEN,OMINOUSWIND,PROTECT,PSYCHOCUT,RAINDANCE,REST,RETURN,REVERSAL,ROCKSLIDE,ROCKSMASH,ROOST,ROUND,SAFEGUARD,SLEEPTALK,SNORE,STEALTHROCK,STEELWING,STONEEDGE,STRUGGLEBUG,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,SWORDSDANCE,TAILWIND,THIEF,TOXIC,UTURN,XSCISSOR
+EggGroups = Bug
+HatchSteps = 6630
+Height = 1.8
+Weight = 89.0
+Color = Brown
+Shape = MultiWinged
+Habitat = Grassland
+Category = Axe
+Pokedex = A violent creature that fells towering trees with its crude axes and shields itself with hard stone. If one should chance upon this Pokémon in the wilds, one's only recourse is to flee.
+Generation = 8
+#-------------------------------
+[URSALUNA]
+Name = Ursaluna
+Types = GROUND,NORMAL
+BaseStats = 130,140,105,50,45,80
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 175
+EffortPoints = ATTACK,3
+CatchRate = 60
+Happiness = 70
+Abilities = GUTS,BULLETPROOF
+HiddenAbility = UNNERVE
+Moves = 1,TACKLE,6,BABYDOLLEYES,11,BULLDOZE,18,SLASH,25,PLAYROUGH,34,HIGHHORSEPOWER,43,DOUBLEEDGE,43,HEADLONGRUSH
+TutorMoves = AERIALACE,ATTRACT,AVALANCHE,BABYDOLLEYES,BRICKBREAK,BULKUP,BULLDOZE,CONFIDE,COVET,CUT,DIG,DOUBLETEAM,EARTHPOWER,EARTHQUAKE,ENDURE,FACADE,FIREPUNCH,FLING,FOCUSBLAST,FOCUSENERGY,FOCUSPUNCH,FRUSTRATION,GIGAIMPACT,GUNKSHOT,HIDDENPOWER,HIGHHORSEPOWER,HYPERBEAM,HYPERVOICE,ICEPUNCH,LASERFOCUS,LASTRESORT,LOWKICK,PAYBACK,PLAYROUGH,POWERUPPUNCH,PROTECT,RAINDANCE,REST,RETALIATE,RETURN,ROAR,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROUND,SEEDBOMB,SHADOWCLAW,SLEEPTALK,SMACKDOWN,SNORE,STOMPINGTANTRUM,STONEEDGE,STRENGTH,SUBSTITUTE,SUNNYDAY,SUPERPOWER,SWAGGER,SWIFT,SWORDSDANCE,TAUNT,THIEF,THROATCHOP,THUNDERPUNCH,TORMENT,TOXIC,UPROAR,WORKUP
+EggGroups = Field
+HatchSteps = 5140
+Height = 2.4
+Weight = 290.0
+Color = Brown
+Shape = BipedalTail
+Habitat = Mountain
+Category = Peat
+Pokedex = It is believed that the swampy terrain of its ancient home region that gave Ursaluna its burly physique and newfound capacity to manipulate peat at will.
+Generation = 8
+#-------------------------------
+[BASCULEGION]
+Name = Basculegion
+Types = WATER,GHOST
+BaseStats = 120,112,65,78,80,75
+GenderRatio = AlwaysMale
+GrowthRate = Medium
+BaseExp = 161
+EffortPoints = HP,3
+CatchRate = 25
+Happiness = 50
+Abilities = RATTLED,ADAPTABILITY
+HiddenAbility = MOLDBREAKER
+Moves = 1,TACKLE,6,AQUAJET,11,BITE,11,HEX,18,ZENHEADBUTT,25,CRUNCH,25,SHADOWBALL,34,WAVECRASH,43,DOUBLEEDGE
+TutorMoves = AGILITY,AQUATAIL,ASSURANCE,ATTRACT,BRINE,CALMMIND,CONFIDE,CRUNCH,CUT,DIVE,DOUBLETEAM,ENDEAVOR,ENDURE,FACADE,FRUSTRATION,GIGAIMPACT,HAIL,HIDDENPOWER,HYDROPUMP,HYPERBEAM,ICEBEAM,ICEFANG,ICYWIND,OMINOUSWIND,PROTECT,PSYCHIC,RAINDANCE,REST,RETURN,REVENGE,ROUND,SCALD,SCARYFACE,SHADOWBALL,SLEEPTALK,SNORE,SUBSTITUTE,SURF,SWAGGER,SWIFT,TAUNT,TOXIC,UPROAR,WATERFALL,WATERPULSE,WHIRLPOOL,ZENHEADBUTT
+EggGroups = Water2
+HatchSteps = 10455
+Height = 3.0
+Weight = 110.0
+Color = Green
+Shape = Finned
+Habitat = Sea
+Category = Big Fish
+Pokedex = Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout other aquatic environments is Basculegion’s equal.
+Generation = 8
+WildItemUncommon = DEEPSEATOOTH
+#-------------------------------
+[SNEASLER]
+Name = Sneasler
+Types = FIGHTING,POISON
+BaseStats = 80,130,60,120,40,80
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 86
+EffortPoints = ATTACK,1,SPEED,1
+CatchRate = 60
+Happiness = 35
+Abilities = PRESSURE
+HiddenAbility = POISONTOUCH
+Moves = 1,QUICKATTACK,6,ROCKSMASH,11,SWIFT,11,DIRECLAW,18,SLASH,25,POISONJAB,34,SWORDSDANCE,43,CLOSECOMBAT
+TutorMoves = AERIALACE,AGILITY,ATTRACT,BEATUP,BRICKBREAK,BULKUP,CALMMIND,CONFIDE,CUT,DIG,DOUBLETEAM,DRAINPUNCH,ENDURE,FACADE,FAKETEARS,FALSESWIPE,FLING,FOCUSENERGY,FOCUSPUNCH,FRUSTRATION,GIGAIMPACT,HIDDENPOWER,HYPERBEAM,IRONTAIL,KNOCKOFF,LASERFOCUS,LASHOUT,LOWKICK,LOWSWEEP,MEGAKICK,MEGAPUNCH,POISONJAB,POWERSHIFT,POWERUPPUNCH,PROTECT,RAINDANCE,REFLECT,REST,RETALIATE,RETURN,ROCKSMASH,ROUND,SCREECH,SHADOWCLAW,SLEEPTALK,SNARL,SNATCH,SNORE,STRENGTH,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,SWORDSDANCE,TAUNT,THROATCHOP,TORMENT,TOXIC,XSCISSOR
+EggGroups = Field
+HatchSteps = 5355
+Height = 1.3
+Weight = 43.0
+Color = Gray
+Shape = BipedalTail
+Habitat = Grassland
+Category = Free Climb
+Pokedex = Because of Sneasler’s virulent poison and daunting physical prowess, no other species could hope to best it on frozen highlands. Preferring solitude, this species does not form packs.
+Generation = 8
+#-------------------------------
+[OVERQWIL]
+Name = Overqwil
+Types = DARK,POISON
+BaseStats = 85,115,95,85,65,65
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 88
+EffortPoints = ATTACK,2
+CatchRate = 45
+Happiness = 50
+Abilities = POISONPOINT,SWIFTSWIM
+HiddenAbility = INTIMIDATE
+Moves = 1,POISONSTING,5,SPIKES,9,PINMISSILE,15,BARBBARRAGE,21,WATERPULSE,26,DARKPULSE,29,POISONJAB,37,AQUATAIL,47,DOUBLEEDGE,57,SELFDESTRUCT
+TutorMoves = AQUATAIL,ASSURANCE,ATTRACT,BLIZZARD,BRINE,CONFIDE,DARKPULSE,DIVE,DOUBLETEAM,ENDURE,EXPLOSION,FRUSTRATION,GIGAIMPACT,HIDDENPOWER,HYPERBEAM,ICEBALL,ICEBEAM,ICYWIND,LIQUIDATION,PAINSPLIT,PAYBACK,PINMISSILE,POISONJAB,PROTECT,RAINDANCE,REST,RETURN,REVENGE,REVERSAL,ROUND,SCALD,SCARYFACE,SELFDESTRUCT,SHADOWBALL,SIGNALBEAM,SLEEPTALK,SLUDGEBOMB,SLUDGEWAVE,SNORE,SPIKES,SUBSTITUTE,SURF,SWAGGER,SWIFT,SWORDSDANCE,TAUNT,THROATCHOP,TOXIC,TOXICSPIKES,VENOMDRENCH,VENOSHOCK,WATERFALL,WATERPULSE,WHIRLPOOL
+EggGroups = Water2
+HatchSteps = 5355
+Height = 2.5
+Weight = 60.5
+Color = Black
+Shape = Finned
+Habitat = Sea
+Category = Pin Cluster
+Pokedex = Its lancelike spikes and savage temperament have earned it the nickname "sea fiend." It slurps up poison to nourish itself.
+Generation = 8
+#-------------------------------
+[ENAMORUS]
+Name = Enamorus
+Types = FAIRY,FLYING
+BaseStats = 74,115,70,106,135,80
+GenderRatio = AlwaysFemale
+GrowthRate = Slow
+BaseExp = 270
+EffortPoints = SPECIAL_ATTACK,3
+CatchRate = 3
+Happiness = 90
+Abilities = HEALER
+HiddenAbility = CONTRARY
+Moves = 1,TACKLE,7,BITE,11,TWISTER,14,DRAININGKISS,22,IRONDEFENSE,31,EXTRASENSORY,41,CRUNCH,47,MOONBLAST,52,SPRINGTIDESTORM
+TutorMoves = ATTRACT,BLOCK,BODYSLAM,BRUTALSWING,CALMMIND,CONFIDE,DAZZLINGGLEAM,DEFOG,DOUBLETEAM,EARTHPOWER,EMBARGO,ENDURE,EXPLOSION,FACADE,FLING,FLY,FOCUSBLAST,FRUSTRATION,GIGAIMPACT,GRASSKNOT,GRAVITY,HIDDENPOWER,HYPERBEAM,IMPRISON,IRONTAIL,KNOCKOFF,MYSTICALFIRE,PAYBACK,PLAYROUGH,POWERSHIFT,PROTECT,PSYCHIC,RAINDANCE,REST,RETURN,REVENGE,ROCKSMASH,ROLEPLAY,ROUND,SCARYFACE,SELFDESTRUCT,SKYDROP,SLEEPTALK,SLUDGEBOMB,SLUDGEWAVE,SMACKDOWN,SNORE,STRENGTH,SUBSTITUTE,SUPERPOWER,SWAGGER,THIEF,TORMENT,TOXIC,UPROAR,UTURN,WEATHERBALL,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 30855
+Height = 1.8
+Weight = 118.0
+Color = Pink
+Shape = HeadArms
+Habitat = RoughTerrain
+Category = Abundance
+Pokedex = When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life across Hisui.
+FormName = Incarnate Forme
+Generation = 8
+#-------------------------------
