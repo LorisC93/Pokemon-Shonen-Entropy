@@ -1,0 +1,5 @@
+Name = Generation 9 Pack
+Version = 0.3
+Website = -
+Credits = Caruban
+Essentials = 20.1
